@@ -52,3 +52,8 @@
     padding: 24px;
     display: inline-block;
 }
+.message-holder-chatgpt {
+    background-color: #f9f9f9;
+    color: #202123;
+    border-radius: 5px;
+  }

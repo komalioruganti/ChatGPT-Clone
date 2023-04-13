@@ -12,6 +12,12 @@ function App() {
             <div className="chat-log">
                 Messages
             </div>
+
+            <div className="chat-input-holder">
+                <form>
+                    <input className="chat-input-textarea" rows='1' placeholder="Type your message here"></input>
+                </form>
+            </div>
         </section>
     </div>
     )
