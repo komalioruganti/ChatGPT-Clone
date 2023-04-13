@@ -10,7 +10,9 @@ function App() {
         </aside>
         <section className="chatsection">
             <div className="chat-log">
-                Messages
+                <div className="chat-message"></div>
+               <div className="avatar"></div>
+               <div className="message"></div>
             </div>
 
             <div className="chat-input-holder">
