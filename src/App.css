@@ -7,13 +7,48 @@
     left: 0;
     background-color: #282c34;
     color: white;
-  }
-  .sidemenu {
+}
+
+.sidemenu {
     width: 240px;
     padding: 10px;
     background-color: #202123;
-  }
-  .chatsection {
+}
+
+.sidemenu-button {
+    border: 0.1px white solid;
+    padding: 12px;
+    border-radius: 5px;
+    width: 200px;
+    text-align: left;
+    font-size: 14px
+}
+
+.sidemenu-button:hover {
+    background-color: rgb(255, 255, 255, 0.05);
+}
+
+.sidemenu-button span {
+    padding-right: 10px;
+}
+
+.chatsection {
     flex: 1;
     background-color: #ffffff;
-  }
+}
+
+.chat-log {
+    text-align: left;
+    padding: 24px;
+    overflow: auto;
+    height: 80%;
+    width: auto;
+    overflow: scroll;
+}
+
+.chat-message {
+    padding-left: 25px;
+    padding-bottom: 30px;
+    padding: 24px;
+    display: inline-block;
+}
